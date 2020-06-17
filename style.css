@@ -1,20 +1,21 @@
 h1{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Sarpanch', sans-serif;
   text-align: center;
   color: #fe6f61;
 }
 
 h2{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Sarpanch', sans-serif;
   text-decoration: underline;
   text-decoration-color: #fe6f61;
   margin-left: 90px;
+  font-size: 35px;
 }
 
 h3{
   font-family: 'Open Sans', sans-serif;
   margin-left: 90px;
-  font-size: 17px;
+  font-size: 22px;
   line-height: 2.5;
   padding-top: 20px;
 
@@ -24,6 +25,7 @@ p{
   margin-left: 90px;
   line-height: 2.5;
   padding-top: 20px;
+  font-size: 18px
 
 }
 
@@ -76,10 +78,25 @@ a:active {
   grid-column: 1;
   grid-row: 2 / 5;
 }
+
+ul{
+  list-style-type: none;
+  margin-left: 50px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+  margin-left: 40px;
+}
+
+
 .four {
   grid-column: 2;
   grid-row: 3 / 5;
 }
+
 .five {
   grid-column: 3;
   grid-row: 3 / 5;
